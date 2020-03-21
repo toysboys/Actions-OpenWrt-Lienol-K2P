@@ -10,10 +10,9 @@ on:
       - 'neo2.config'
 #  schedule:
 #    - cron: 0 4 * * 5 # 北京时间每周五中午12:00编译
-
   watch:
     types: [started]
-    
+ 
 env:
   REPO_URL: https://github.com/Lienol/openwrt.git
   REPO_BRANCH: dev-19.07
